@@ -1,0 +1,145 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body{
+	background-color: #BBB;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container
+{
+	width: 100%;
+	height: 2000px;
+	background-color: #BBB;
+	padding-top: 65px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+#header
+{
+	background-color: #BBB;
+	padding-bottom: 50px;
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+#main
+{
+	margin: auto;
+	border-style: solid;
+	border-color: #BBB;
+	border-width:  0 15px 5px 0 ;
+	width: 700px;
+	height: 1600px;
+	float:left;
+	background-color: white;
+	padding: 30px;
+}
+
+#sidebar
+{
+	border-width: 0 0 5px 5px;
+	margin: auto;
+	border-style: solid;
+	border-color: darkgrey;
+	width: 350px;
+	height: 750px;
+	float: left;
+	background-color: white;
+	padding: 60px 30px 30px 30px;
+
+}
+
+#footer
+{
+	background-color: #BBB;
+	width:700px;
+}
+
+h1{
+	width: 500px;
+	letter-spacing: -2px;
+	margin: 0;
+	font-family: 'Lato';
+	font-size: 55px;
+}
+
+h2{
+	margin: 10px 0;
+	font-family: 'Lato';
+	font-size: 35px;
+}
+
+h3{
+	font-family: 'Lato';
+	padding-left: 10px;
+	margin-top: 30px;
+}
+p{
+	padding-left: 2px;
+	padding-bottom: 10px;
+	margin: 0;
+	font-size: 13px;
+}
+
+img{
+	padding-bottom: 15px;
+	padding-top: 7px;
+}
+
+ul{
+	list-style-position: inside;
+	padding: 0px 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	margin: 4px;
+	color: black;
+}
+.me{
+	padding: auto;
+	vertical-align: center;
+	width: 200px; 
+	height: 220px;
+	border-radius: 20cm;
+}
+
+.vl {
+  border-left: 3px solid #BBB;
+  border-radius: 10px;
+  height: 120px;
+  margin-left: 10px;
+}
+
+.quote{
+	padding-top: 10px;
+	padding-left: 20px;
+	line-height: 20px;
+	font-style: italic;
+}
